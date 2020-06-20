@@ -565,9 +565,9 @@ ul li {
     border-top: 1px solid #858585;
 }
 
-.footer__social ul li {
-    display: inline-block;
-    margin: 0 4.5rem;
+.footer__social ul {
+    display: flex;
+    justify-content: space-around;
 }
 
 .footer__social ul li i {
@@ -807,9 +807,6 @@ ul li {
     .footer .footer__item {
         margin: 1rem 0;
     }
-    .footer__social ul li {
-        margin: 0 2rem;
-    }
     .footer__link {
         flex-wrap: wrap;
     }
@@ -817,6 +814,9 @@ ul li {
         width: 50%;
         min-height: 20vh;
         padding-left: 3rem;
+    }
+    .nhan {
+        margin-top: 2rem;
     }
 }
 
@@ -1013,9 +1013,6 @@ ul li {
     .footer .footer__item {
         margin: 1rem 0;
     }
-    .footer__social ul li {
-        margin: 0 0.5rem;
-    }
     .footer__link {
         flex-wrap: wrap;
     }
@@ -1024,5 +1021,8 @@ ul li {
         min-height: 20vh;
         text-align: center;
         padding-left: 0;
+    }
+    .nhan {
+        margin-top: 2rem;
     }
 }
