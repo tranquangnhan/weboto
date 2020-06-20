@@ -30,19 +30,19 @@
                     <div class="navbar-sub__nav">
                         <ul>
                             <li>
-                                <a href="#home">Home</a>
+                                <a href="#home" onclick="hideNav()">Home</a>
                             </li>
                             <li>
-                                <a href="#welcome">Welcome</a>
+                                <a href="#welcome" onclick="hideNav()">Welcome</a>
                             </li>
                             <li>
-                                <a href="#colorcar">Color car</a>
+                                <a href="#colorcar" onclick="hideNav()">Color car</a>
                             </li>
                             <li>
-                                <a href="#latestblog">Latest Blog</a>
+                                <a href="#latestblog" onclick="hideNav()">Latest Blog</a>
                             </li>
                             <li>
-                                <a href="#contact">Contact</a>
+                                <a href="#contact" onclick="hideNav()">Contact</a>
                             </li>
                         </ul>
                     </div>
@@ -188,7 +188,7 @@
                     </div>
                 </div>
 
-                <div class="colorcar" id="colorcar">
+                <div class="colorcar pb-2" id="colorcar">
                     <div class="changecolorcar">
                         <h2>Color car</h2>
                         <img src="images/colorcarcolor2.png" alt="">
@@ -259,41 +259,103 @@
                     </div>
                 </div>
             </div>
-        </main>
-        <!-- end main -->
-        <!-- start footer -->
-        <footer class="footer mt-3 pb-2" id="customsays">
-            <div class="container">
-                <div class="box__footer">
-                    <div class="footer__item">
-                        <div class="footer__item-img">
-                            <img src="images/khachhang1.png" alt="">
+            <div class="footer mt-3 pb-2" id="customsays">
+                <div class="container">
+                    <div class="box__footer">
+                        <div class="footer__item">
+                            <div class="footer__item-img">
+                                <img src="images/khachhang1.png" alt="">
+                            </div>
+                            <div class="footer__item-text mt-1">
+                                <h2><i> mark jackson</i></h2>
+                                <p>i really like it because it make me relax</p>
+                            </div>
                         </div>
-                        <div class="footer__item-text mt-1">
-                            <h2><i> mark jackson</i></h2>
-                            <p>i really like it because it make me relax</p>
+                        <div class="footer__item">
+                            <div class="footer__item-img">
+                                <img src="images/khachhang2.png" alt="">
+                            </div>
+                            <div class="footer__item-text mt-1">
+                                <h2><i> mark jackson</i></h2>
+                                <p>i really like it because it make me relax</p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="footer__item">
-                        <div class="footer__item-img">
-                            <img src="images/khachhang2.png" alt="">
-                        </div>
-                        <div class="footer__item-text mt-1">
-                            <h2><i> mark jackson</i></h2>
-                            <p>i really like it because it make me relax</p>
-                        </div>
-                    </div>
-                    <div class="footer__item">
-                        <div class="footer__item-img">
-                            <img src="images/khachhang3.png" alt="">
-                        </div>
-                        <div class="footer__item-text mt-1">
-                            <h2><i> mark jackson</i></h2>
-                            <p>i really like it because it make me relax</p>
+                        <div class="footer__item">
+                            <div class="footer__item-img">
+                                <img src="images/khachhang3.png" alt="">
+                            </div>
+                            <div class="footer__item-text mt-1">
+                                <h2><i> mark jackson</i></h2>
+                                <p>i really like it because it make me relax</p>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
+
+        </main>
+        <!-- end main -->
+        <!-- start footer -->
+        <footer>
+            <div class="footer__social">
+                <ul>
+                    <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                    <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                    <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+                    <li><a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+                    <li><a href="#"><i class="fa fa-rss" aria-hidden="true"></i></a></li>
+                    <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                    <li><a href="#"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a></li>
+                    <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                </ul>
+            </div>
+            <div class="container">
+                <div class="footer__link">
+                    <div class="footer__item1">
+                        <h3>More topic</h3>
+                        <ul>
+                            <li role="presentation"> <a href="/en/eq/" data-analytics-linkposition="brandhub-footer-sitemap-menu" target="_self"> Electromobility </a> </li>
+                            <li role="presentation"> <a href="/en/next/" data-analytics-linkposition="brandhub-footer-sitemap-menu" target="_self"> Innovation </a> </li>
+                            <li role="presentation"> <a href="/en/design/" data-analytics-linkposition="brandhub-footer-sitemap-menu" target="_self"> Design </a> </li>
+                            <li role="presentation"> <a href="/en/exhibitions/" data-analytics-linkposition="brandhub-footer-sitemap-menu" target="_self"> Exhibitions </a> </li>
+                        </ul>
+                    </div>
+                    <div class="footer__item1">
+                        <h3>Shopping</h3>
+                        <ul>
+                            <li role="presentation"> <a href="http://mb4.me/all-models" data-analytics-linkposition="brandhub-footer-sitemap-menu" target="_self" data-nn-externallink=""> Model Overview </a> </li>
+                            <li role="presentation"> <a href="http://mb4.me/your-mercedes" data-analytics-linkposition="brandhub-footer-sitemap-menu" target="_self" data-nn-externallink=""> Configurator </a> </li>
+                            <li role="presentation"> <a href="http://mb4.me/book-a-test-drive" data-analytics-linkposition="brandhub-footer-sitemap-menu" target="_self" data-nn-externallink=""> Test Drive </a> </li>
+                            <li role="presentation"> <a href="https://www.mercedes-benz.com/en/vehicles/passenger-cars/mercedes-maybach/?owda=misc" data-analytics-linkposition="brandhub-footer-sitemap-menu" target="_self" data-nn-externallink=""> Mercedes-Maybach </a> </li>
+                        </ul>
+                    </div>
+                    <div class="footer__item1">
+                        <h3>All about cars</h3>
+                        <ul>
+                            <li role="presentation"> <a href="http://mb4.me/your-retailer" data-analytics-linkposition="brandhub-footer-sitemap-menu" target="_self" data-nn-externallink=""> Dealer Search </a> </li>
+                            <li role="presentation"> <a href="https://configurator.mercedes-benz-accessories.com/?owda=misc&amp;csref=_port_mbcom:en" data-analytics-linkposition="brandhub-footer-sitemap-menu" target="_blank" data-nn-externallink=""> Mercedes-Benz Accessoires </a>                                </li>
+                            <li role="presentation"> <a href="https://shop.mercedes-benz.com/collection/?owda=misc&amp;csref=_port_mbcom:en" data-analytics-linkposition="brandhub-footer-sitemap-menu" target="_self" data-nn-externallink=""> Mercedes-Benz Collection </a> </li>
+                            <li role="presentation"> <a href="https://shop.mercedes-benz.com/en-gb/connect/?owda=misc" data-analytics-linkposition="brandhub-footer-sitemap-menu" target="_self" data-nn-externallink=""> Mercedes me connect Store </a> </li>
+                        </ul>
+                    </div>
+                    <div class="footer__item1">
+                        <h3>Discover more</h3>
+                        <ul>
+                            <li role="presentation"> <a href="https://www.daimler.com/en/" data-analytics-linkposition="brandhub-footer-sitemap-menu" target="_blank" data-nn-externallink=""> Daimler AG </a> </li>
+                            <li role="presentation"> <a href="https://www.mercedes-benz.com/en/company/?owda=misc" data-analytics-linkposition="brandhub-footer-sitemap-menu" target="_self" data-nn-externallink=""> Mercedes-Benz AG </a> </li>
+                            <li role="presentation"> <a href="https://www.daimler.com/press/" data-analytics-linkposition="brandhub-footer-sitemap-menu" target="_blank" data-nn-externallink=""> Press </a> </li>
+                            <li role="presentation"> <a href="https://www.daimler.com/career/" data-analytics-linkposition="brandhub-footer-sitemap-menu" target="_blank" data-nn-externallink=""> Career </a> </li>
+                        </ul>
+                    </div>
+                </div>
+
+
+
+            </div>
+            <div class="nhan">
+                <p>Được Thiết Kế Bởi Nhân Đẹp Trai</p>
+            </div>
+
         </footer>
         <!-- end footer -->
     </div>

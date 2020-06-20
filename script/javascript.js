@@ -62,4 +62,11 @@ menuBtn.addEventListener('click', () => {
         navbarSub.style.transform = 'translateX(-100%)';
         menuOpen = false;
     }
-})
+});
+
+function hideNav() {
+    navbarSub.style.transform = 'translateX(-100%)';
+    menuBtn.classList.remove('open');
+    navbarSub.style.transform = 'translateX(-100%)';
+    menuOpen = false;
+}
