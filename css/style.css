@@ -206,11 +206,12 @@ ul li {
 
 .header .header__banner .banner__box-text {
     position: absolute;
-    left: 20%;
+    left: calc(50% - 29%);
     top: 30%;
     color: white;
     text-align: center;
     z-index: 3;
+    width: 58%;
 }
 
 .header .header__banner .banner__box-text .box-text__title h1 {
@@ -696,9 +697,6 @@ ul li {
     .header .header__banner .header__navbar-main .header__navbar-top {
         display: none;
     }
-    .header .header__banner .banner__box-text {
-        left: 15%;
-    }
     .header .header__banner .banner__video video {
         height: 55vh;
     }
@@ -903,10 +901,12 @@ ul li {
     }
     /* end nav bar mobile */
     .header .header__banner .banner__box-text {
+        /* left: 0; */
+        width: 100%;
         left: 0;
     }
     .header .header__banner .banner__video video {
-        height: 55vh;
+        height: 77vh;
     }
     .header .header__banner .banner__box-text .box-text__title h1 {
         font-size: 32pt;
